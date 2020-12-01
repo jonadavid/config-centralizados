@@ -4,7 +4,11 @@ server:
   
 spring:
   datasource:
+<<<<<<< HEAD
     url: jdbc:postgresql://192.168.100.67:5433/GOTALENT
+=======
+    url: jdbc:postgresql://localhost:5433/TEST_GOTALENT
+>>>>>>> e40cf7d059b2d44d0c95e8baffbcd2ab4af5bd5f
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
