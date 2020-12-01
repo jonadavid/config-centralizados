@@ -4,7 +4,7 @@ server:
   
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/GOTALENT
+    url: jdbc:postgresql://locahost:5433/GOTALENT
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
@@ -19,6 +19,6 @@ spring:
          non_contextual_creational: true
          
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: locahost:9092
     consumer:
       group-id: myGroup 

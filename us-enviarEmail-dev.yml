@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8088
   
   
   
@@ -23,6 +23,6 @@ spring:
     
 # ESPECIFICACION DEL KAFKA SERVER  
   kafka:
-    bootstrap-servers: kafka:9093
+    bootstrap-servers: broker:9093
     consumer:
       group-id: myGroup

@@ -1,0 +1,8 @@
+server:
+ port: 8090
+
+uri:
+  marcacion: http://rgt-es-marcacion:8079
+  marcaciones-externas: http://rgt-us-marcacionesexternas:8080
+
+
