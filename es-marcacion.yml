@@ -4,9 +4,9 @@ server:
   
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/GOTALENT
+    url: jdbc:postgresql://localhost:5432/GOTALENT
     username: postgres
-    password: root
+    password: 0926791583
     driver-class-name: org.postgresql.Driver
     
   jpa:
